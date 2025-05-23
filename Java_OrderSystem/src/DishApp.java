@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * ClassName: Dishapp
  * Package: PACKAGE_NAME
- * Dscription:
+ * Dscription:frame of Dish
  *
  * @Author: gw
  * @Creat: 2025/5/13 - 21:59

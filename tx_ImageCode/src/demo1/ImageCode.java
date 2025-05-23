@@ -77,7 +77,7 @@ public class ImageCode {
         ImageIO.write(image, "jpg", new File("D:\\Desktop\\Ideaproject\\tx_ImageCode\\img\\a.jpg"));
     }
 
-    //随机颜色方法,高亮颜色
+    //随机颜色方法,高亮颜色,第一个为透明度，第二个第三个为颜色范围的上下界
     public static Color getRandomColor(int a, int x, int y) {
         Random random = new Random();
         int r = random.nextInt(x, y);
