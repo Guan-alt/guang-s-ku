@@ -22,6 +22,7 @@ public class NoteTest {
          * 等价于NoteDemo为接口，其子类实现的接口方法，并返回了对应方法的值
          * 这里就是返回了键对值，reflectTest.Book，setPrice
          */
+        //根据当前字节码文件，获取对于的注解对象
         NoteDemo note = cls.getAnnotation(NoteDemo.class);
         //根据键获取值
         String className = note.className();

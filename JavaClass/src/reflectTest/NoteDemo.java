@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * ClassName: NoteDemo
  * Package: reflectTest
- * Dscription:自定义注解，用于替换配置文件内容
+ * Dscription:自定义注解，用于替换配置文件内容，或责测试
  *
  * @Author: gw
  * @Creat: 2025/5/23 - 9:28

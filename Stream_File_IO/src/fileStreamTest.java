@@ -12,8 +12,9 @@ public class fileStreamTest {
     public static void main(String[] args) {
         try {
             byte bWrite[] = {8,6};
-            //字节输出流超类，写入数据，文件不存在自动创建
-            OutputStream os = new FileOutputStream("test.txt");
+            //字节输出流超类，写入数据，文件不存在自动创建,true追加，false（默认）覆盖
+            // stream(file f,boolean b)，b可以指定对文件的操作为追加还是覆盖,
+            OutputStream os = new FileOutputStream("test.txt",true);
             for (int i = 0; i < bWrite.length; i++) {
                 //每次写入数据从文件开头开始，会覆盖全部已写入的数据
                 os.write(bWrite[i]);
@@ -28,11 +29,8 @@ public class fileStreamTest {
 
             for (int i = 0; i < size; i++) {
                 System.out.println(is.read()+" ");
-
             }
             is.close();
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
