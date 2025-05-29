@@ -39,6 +39,7 @@ public class reflectDemo {
         //动态加加载，根据类的全限定名，在运行时加载类到 JVM 中。
         Class<?> cls = Class.forName(className);
         //这时类被加载进jvm中了，可以用类对象去创建实例，这里用的是类对象的无参构造方法
+        //如果用有参构造方法还要再获取有参构造方法再使用
         Object obj = cls.newInstance();
 
 

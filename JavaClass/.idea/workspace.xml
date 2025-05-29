@@ -18,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -31,6 +34,7 @@
     "Application.TestCheck.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -72,6 +76,7 @@
       <workItem from="1748225224649" duration="472000" />
       <workItem from="1748261931547" duration="1621000" />
       <workItem from="1748325441996" duration="2764000" />
+      <workItem from="1748432521422" duration="4020000" />
     </task>
     <servers />
   </component>
