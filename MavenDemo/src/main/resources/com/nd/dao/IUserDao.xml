@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 确保 namespace 是 IUserDao 接口的全限定名 -->
+<mapper namespace="com.nd.dao.IUserDao" >
+    <select id="findAll" resultType="com.nd.entity.User">
+        select * from user
+    </select>
+</mapper>
