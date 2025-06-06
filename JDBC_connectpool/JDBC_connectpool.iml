@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../校内课堂/jdbc及连接池/JDBC连接池所需jar包/libs/mysql-connector-java-8.0.28.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../校内课堂/jdbc及连接池/JDBC连接池所需jar包/libs/c3p0-0.9.5.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../校内课堂/jdbc及连接池/JDBC连接池所需jar包/libs/commons-logging-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../校内课堂/jdbc及连接池/JDBC连接池所需jar包/libs/mchange-commons-java-0.2.12.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../校内课堂/jdbc及连接池/JDBC连接池所需jar包/libs/spring-beans-5.0.0.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../校内课堂/jdbc及连接池/JDBC连接池所需jar包/libs/spring-core-5.0.0.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../校内课堂/jdbc及连接池/JDBC连接池所需jar包/libs/spring-jdbc-5.0.0.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../校内课堂/jdbc及连接池/JDBC连接池所需jar包/libs/spring-tx-5.0.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../校内课堂/jdbc及连接池/JDBC连接池所需jar包/libs/spring-jdbc-5.0.0.RELEASE-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../校内课堂/jdbc及连接池/JDBC连接池所需jar包/libs/spring-jdbc-5.0.0.RELEASE-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../校内课堂/jdbc及连接池/JDBC连接池所需jar包/libs/junit-4.13.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../校内课堂/jdbc及连接池/JDBC连接池所需jar包/libs/mysql-connector-j-8.3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../校内课堂/jdbc及连接池/JDBC连接池所需jar包/libs/druid-1.2.8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
